@@ -1,1 +1,1 @@
-My first C repository
+My C
