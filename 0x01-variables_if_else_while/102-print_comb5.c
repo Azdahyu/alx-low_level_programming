@@ -18,7 +18,7 @@ int main(void)
 			if (f2 != f1)
 			{
 				putchar((f1 / 10) + 48);
-				putchar((f2 % 10) + 48);
+				putchar((f1 % 10) + 48);
 				putchar(' ');
 				putchar((f2 / 10) + 48);
 				putchar((f2 % 10) + 48);
