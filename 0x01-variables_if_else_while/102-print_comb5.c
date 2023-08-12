@@ -8,8 +8,7 @@
 
 int main(void)
 {
-	int f1 = 0;
-	int f2;
+	int f1 = 0, f2;
 
 	while (f1 <= 99)
 	{
@@ -22,7 +21,7 @@ int main(void)
 				putchar((f2 % 10) + 48);
 				putchar(' ');
 				putchar((f2 / 10) + 48);
-				putchar(' ');
+				putchar((f2 % 10) + 48);
 
 				if (f1 != 98 || f2 != 99)
 				{
