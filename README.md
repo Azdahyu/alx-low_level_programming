@@ -1,1 +1,1 @@
-My C
+This is my debugging class
