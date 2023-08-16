@@ -20,7 +20,7 @@ void print_to_98(int n)
 		}
 		printf("\n");
 	}
-	else if (n < 10)
+	else if (n < 0)
 	{
 		for (i = n ; i <= 98 ; i++)
 		{
